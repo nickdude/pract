@@ -1,0 +1,45 @@
+.action-bar-container{
+    width: 20vw;
+    height: 80vh;
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 3px 4px 33px 5px rgba(0, 0, 0, 0.25);
+    margin:0 0 0 1.5vw;
+}
+
+.action-bar-container h1{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 3vh 0 0 3vw;
+}
+
+.action-bar-list-container{
+    height: 60vh;
+    width: 10vw;
+    margin: 3vh 0 0 3vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 768px) {
+    .action-bar-container{
+        width: 90vw;
+        height: 20vh;
+        border-radius: 11px;
+        background: #FFF;
+        box-shadow: 3px 4px 33px 5px rgba(0, 0, 0, 0.25);
+        margin:1.5vw 0 0 0;
+    }
+    .action-bar-list-container{
+        height: 5vh;
+        width: 80vw;
+        margin: 3vh 0 0 3vw;
+        overflow: auto;
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,24 @@
+.button-container{
+    border-radius: 10px;
+    min-height: 5vh;
+    width: 10vw;
+    border: none;
+    background-color: #73A9FA;
+    color: #FFF;
+    font-size: 2vh;
+    font-weight: 800;
+    margin: 0 0 1.5vh 0;
+}
+@media (max-width: 768px) {
+    .button-container{
+        border-radius: 10px;
+        height: 5vh;
+        min-width: 30vw;
+        border: none;
+        background-color: #73A9FA;
+        color: #FFF;
+        font-size: 2vh;
+        font-weight: 800;
+        margin: 0 0 0 1.5vw;
+    }
+}

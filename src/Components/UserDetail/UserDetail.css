@@ -1,0 +1,31 @@
+.user-detail-container{
+    width: 50vw;
+    height: 80vh;
+    border-radius: 11px;
+    box-shadow: 3px 4px 33px 5px rgba(0, 0, 0, 0.25);
+    margin: 0 1.5vw 0 1.5vw;
+}
+.user-detail-container h1{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 3vh 0 0 3vw;
+}
+.tab-container{
+    width: 50vw;
+    height: 60vh;
+    background-color: red;
+}
+
+@media (max-width: 768px) {
+    .user-detail-container{
+        width: 75vw;
+        height: 50vh;
+        border-radius: 11px;
+        box-shadow: 3px 4px 33px 5px rgba(0, 0, 0, 0.25);
+        margin: 1.5vh 0 1.5vh 0;
+    }
+}
